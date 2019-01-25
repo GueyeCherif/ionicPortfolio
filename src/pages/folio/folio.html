@@ -3,17 +3,26 @@
     <ion-title>folio</ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content padding>
+<ion-content class="card-background-page">
+
   <ion-card>
-    <img src="../../assets/imgs/1.png" (click)="projet()"/>
+    <img src="../../assets/imgs/blue.png" (click)="projet()"/>
+    <div class="card-title">Mes projets</div>
   </ion-card>
+
   <ion-card>
-    <img src="../../assets/imgs/2.png"/>
+    <img src="../../assets/imgs/orange.png" (click)="propos()"/>
+    <div class="card-title">A propos de moi</div>
   </ion-card>
+
   <ion-card>
-    <img src="../../assets/imgs/3.png"/>
+    <img src="../../assets/imgs/indigo.png" (click)="blog()"/>
+    <div class="card-title">Articles de blog</div>
   </ion-card>
+
   <ion-card>
-    <img src="../../assets/imgs/4.png"/>
+    <img src="../../assets/imgs/vert.png" (click)="contact()"/>
+    <div class="card-title">Mon CV</div>
   </ion-card>
+
 </ion-content>

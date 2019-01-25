@@ -12,10 +12,8 @@ export class ProjetsPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ProjetsPage');
-  }
-  sousprojet(){
-    this.navCtrl.push(SousProjetsPage);
+
+  sousprojet(name:string){
+    this.navCtrl.push(SousProjetsPage, {sousprojetName: name});
   }
 }

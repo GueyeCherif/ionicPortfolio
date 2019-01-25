@@ -8,7 +8,11 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FolioPage } from "../pages/folio/folio";
 import { ProjetsPage } from "../pages/projets/projets";
+import { AproposPage } from "../pages/apropos/apropos";
+import { BlogPage } from "../pages/blog/blog";
+import { ContactPage } from "../pages/contact/contact";
 import { SousProjetsPage } from "../pages/projets/sous-projets/sous-projets";
+import { DetailProjetsPage } from "../pages/projets/detail-projets/detail-projets";
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { SousProjetsPage } from "../pages/projets/sous-projets/sous-projets";
     HomePage,
     FolioPage,
     ProjetsPage,
-    SousProjetsPage
+    AproposPage,
+    BlogPage,
+    ContactPage,
+    SousProjetsPage,
+    DetailProjetsPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +36,11 @@ import { SousProjetsPage } from "../pages/projets/sous-projets/sous-projets";
     HomePage,
     FolioPage,
     ProjetsPage,
-    SousProjetsPage
+    AproposPage,
+    BlogPage,
+    ContactPage,
+    SousProjetsPage,
+    DetailProjetsPage
 
   ],
   providers: [
