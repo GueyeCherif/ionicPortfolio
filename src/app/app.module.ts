@@ -13,6 +13,7 @@ import { BlogPage } from "../pages/blog/blog";
 import { ContactPage } from "../pages/contact/contact";
 import { SousProjetsPage } from "../pages/projets/sous-projets/sous-projets";
 import { DetailProjetsPage } from "../pages/projets/detail-projets/detail-projets";
+import { CherifProvider } from '../providers/cherif/cherif';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { DetailProjetsPage } from "../pages/projets/detail-projets/detail-projet
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    CherifProvider
   ]
 })
 export class AppModule {}

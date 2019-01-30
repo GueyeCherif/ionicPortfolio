@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DetailProjetsPage } from '../detail-projets/detail-projets';
 
 /**
  * Generated class for the DetailProjetsPage page.

@@ -9,5 +9,30 @@
 
 <ion-content padding>
 <p>{{ name }}</p>
-
+<ion-list>
+  <button ion-item (click)="desc()">
+    Description du projet
+  </button>
+  <button ion-item (click)="speci()">
+    Spécification techniques
+  </button>
+  <button ion-item (click)="date()">
+    Date de réalisation
+  </button>
+  <button ion-item (click)="etape()">
+    Etape réalisation
+  </button>
+  <button ion-item (click)="team()">
+    Membres de l'équipe
+  </button>
+  <button ion-item (click)="diffi()">
+    Difficultés rencontrées
+  </button>
+  <button ion-item (click)="dev()">
+    Développements spécifiques
+  </button>
+  <button ion-item (click)="lien()">
+    Liens vers projet
+  </button>
+</ion-list>
 </ion-content>
